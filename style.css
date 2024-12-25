@@ -1,0 +1,145 @@
+body {
+  display: grid;
+  background-color: #f7f7f7;
+  gap: 5rem;
+  justify-items: center;
+  margin-top: 3rem;
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+}
+
+img {
+  max-width: 100%;
+}
+.foto {
+  width: 30rem;
+}
+.menu {
+  display: flex;
+  gap: 2rem;
+}
+
+.botoes {
+  text-decoration: none;
+  background-color: white;
+  padding: 1rem 2rem;
+  border-radius: 0.25rem;
+  color: #000;
+}
+
+.conteudo {
+  margin-left: 1rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 1000px;
+}
+.conteudo h1{ font-size: 2rem;}
+.q1 {
+  padding: 4rem;
+  background-color: white;
+  justify-items: right;
+}
+.q1 p {
+  font-size: 1.25rem;
+  text-align: right;
+  margin-right: 0rem;
+  line-height: 1.5;
+}
+.q1 h1 {
+  margin-top: 0rem;
+  text-align: center;
+}
+.q1 a {
+  text-decoration: none;
+  background-color: #ee2211;
+  color: white;
+  padding: 0.75rem;
+  border-radius: 0.25rem;
+  margin-top: 5rem;
+}
+.q3 {
+  background-image: url(/testes/img/onda.svg);
+  padding: 5rem;
+}
+.q3 h1 {
+  color: #c6c6c6;
+  font-size: 4rem;
+}
+.q4 {
+  padding: 3rem;
+  background-color: white;
+}
+
+footer {background-color: #fff;width: 100%;margin-bottom: 0rem;
+  text-decoration: bold;
+  font-size: 1.25rem;
+  text-align: center;
+  margin-top: 6rem;
+}
+.discrição {
+  margin-block-start: 0rem;
+  margin-block-end: 0rem;
+  margin-bottom: 1rem;
+}
+.lista1 {
+  list-style: none;
+  display: flex;
+  gap: 1.25rem;
+}
+.q1 a:hover {
+  background-color: #900;
+}
+
+ol {
+  padding-inline-start: 0rem;
+}
+nav a:hover {
+  outline: solid #900 0.25rem;
+}
+.q4 h2 {
+  padding-left: 1rem;
+  text-align: left;
+  margin-top: 1px;
+}
+.q4 p {
+  margin-left: 1rem;
+}
+.topicos {
+  border: solid #f7f7f7;
+  padding: 1rem;
+  display: grid;
+  border-radius: 0.25rem;
+  grid-template-columns: auto 1fr;
+}
+.topicos p {
+  margin-top: 0rem;
+  grid-column: 2;
+  margin-bottom: 0rem;
+}
+.q4 {
+  margin-top: 0rem;
+  padding: 2rem;
+  margin-left: 0rem;
+}
+.lista2 {
+  list-style: none;
+  margin-top: 0rem;
+  padding-left: 0rem;
+}
+.lista2 li:nth-child(odd) {
+  background: #f7f7f7;
+  padding: 1px;
+}
+.lista2 li:hover {
+  border-left: solid #900;
+}
+.q1::before {
+  display: block;
+  content: "";
+  width: 3.75rem;
+  height: 0.25rem;
+  background: #ee2211;
+  margin-left: 28.5rem;
+  position: absolute;
+  margin-top: -1.5rem;
+}
