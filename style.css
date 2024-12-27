@@ -147,6 +147,6 @@ nav a { flex-wrap: wrap;}
 .conteudo{ grid-template-columns: 1fr;}
 .lista1 { flex-wrap: wrap; gap: 3rem;}
 .q1{ margin-right: 3rem; 
- }.q4{margin-left: 0rem;}
+ }.q4{margin-left: 0rem;padding: 1rem;}
  .q1::before { margin-top: -1.5rem; margin-left: 25rem;}
 }
